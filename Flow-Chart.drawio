@@ -1,14 +1,26 @@
 <mxfile host="65bd71144e">
     <diagram id="-ZKOihPQWHoA3tNPGI94" name="Page-1">
-        <mxGraphModel dx="834" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1661" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="430" y="70" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="190" width="100" height="60" as="geometry"/>
+                <mxCell id="3" value="Ask the user they live in apartment or houses&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="190" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="if&amp;nbsp;&lt;br&gt;apartment_number != None" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="390" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="get full name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="422.5" width="140" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="get apartment &lt;br&gt;number&amp;nbsp;&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="422.5" width="140" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="get street number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="-260" y="422.5" width="140" height="85" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
